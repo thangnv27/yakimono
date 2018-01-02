@@ -1,0 +1,83 @@
+.admin-tab							{ display: none; }
+.welcome-text                       { max-width: 720px; line-height: 1.5em; }
+.desc-text                          { max-width: 420px; line-height: 1.5em; }
+.theme-highlight                    { width: 240px; height: auto; padding: 5px; background: #fff; box-shadow: 0px 4px 5px rgba(0,0,0,0.5); display: block; float: left; margin: 0 20px 20px 0; }
+.theme-highlight img                { display: block; max-width: 100%; height: auto; }
+
+.custom-wrap                        { max-width: 800px; }
+.custm-tab                          {  }
+.custm-tab .form-table              { margin-top: 0; }
+.custm-tab hr                       { height: 1px; background: #ccc; border: none; }
+
+.custm-tab label                    { display: block; width: 140px; }
+.custm-tab input[type='text']       { padding: 4px; width: 200px; }
+.custm-tab select                   { padding: 4px; width: 200px; }
+.custm-tab textarea                 { width: 400px; height: 100px; }
+p.submit                            { padding: 0 0 1.5em 0; }
+.yopress_alert                       { margin: 0 5px !important; position: relative; top: 5px; }
+#uploaded-image                     { max-width: 480px; }
+#uploaded-image img                 { display: block; width: 100%; }
+.panel-custom                       { margin: 15px 0; padding: 5px; float: left; }
+.panel-custom > img                 { display: block; float: left; width: 100% ;max-width: 100%; height: auto; }
+
+#yopress-wrap							{ height: auto; min-height: 600px; max-width: 800px; position: relative;  margin-top: 40px; border-left: 4px solid #ECECEC;box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);  background: #FCFCFC; }
+
+#yopress-wrap input,
+#yopress-wrap select,
+#yopress-wrap button,
+#yopress-wrap .wp-color-result,
+#yopress-wrap textarea { box-shadow: none;}
+
+#yopress-wrap button,
+#yopress-wrap input[type=submit],
+#yopress-wrap input[type=button],
+#yopress-wrap input[type=reset] { font-weight: 300; border-color: transparent;}
+
+#yopress-wrap tr { border-bottom: 1px solid #eee; }
+
+.yopress-admin-menu *					{ -webkit-user-select: none; -moz-user-select: none; user-select: none;}
+.yopress-admin-menu						{  clear: left; margin: 0; padding: 0; list-style: none; width: 179px; border-right: 1px solid #EEE; }
+
+.yopress-admin-menu div.wp-menu-name	{ padding: 12px 16px; font-size: 13px; border-bottom: 1px solid #E0E0E0; }
+
+.yopress-admin-menu li.menu-top			{ min-height: 28px; position: relative; margin:0; }
+.yopress-admin-menu li.current			{ background: #0074a2;  }
+.yopress-admin-menu a.menu-top			{ font-size: 13px; line-height: 18px; display: block; text-decoration: none;  outline: 0; color: rgba(97, 97, 97, 1); }
+.yopress-admin-menu li.current a		{ color: #fff; }
+
+.yopress-header							{ background-color: #fff; padding: 20px; border-bottom: 2px solid #ececec;  /*border-bottom: 1px solid rgb(218, 218, 218);*/}
+
+.yopress-adminmenuwrap					{ position: relative; float: left;  }
+
+.yopress-adminmenuback					{  position: absolute; top: 0; bottom: 0; z-index: -1; width: 145px;  }
+
+#yopress-wrap #wpbody-content			{ padding: 0;}
+#yopress-wrap #wpbody-content .wrap		{ margin: 0; }
+.yopress-admin-content					{ padding: 5px 20px; min-height: 700px; background: rgb(252, 252, 252); }
+.yopress-admin-content input[type=checkbox] { width: 16px;  }
+.yopress-admin-content label			{ font-weight: 400; color: #444;}
+.yopress-admin-content label small 		{ color: #444; opacity: 0.5}
+.yopress-admin-content h3				{ border-bottom: 1px solid #dfdfdf; padding-bottom: 20px; }
+.yopress-header h3						{ margin: 0; font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif; font-size: 24px; font-weight: normal; line-height: 1.2; display: inline-block; color: #333; padding: 8px 15px;  }
+.yopress-header p						{ font-size: 13px; margin: 0; display: none;  }
+
+.yopress-navbar							{  text-align: right; position: absolute; top: 20px; right: 0; width: 100%; color: rgb(75, 138, 167); }
+.yopress-navbar ul						{ list-style: none; margin: 0; padding: 0 }
+.yopress-navbar ul li					{ display: inline; border-right: 1px solid rgb(197, 236, 255); padding: 0 10px; border-left: 1px solid rgb(239, 250, 255);}
+.yopress-navbar ul li a					{ text-decoration: none; }
+.yopress-navbar ul li:first-child		{ border-left: none; }
+.yopress-navbar ul li:last-child		{ border-right: none; padding-right: 5px;}
+
+.yopress-admin-icon-container 			{ height: 150px; overflow: auto; width: 100%; border: 1px solid #aaa; overflow-x: hidden; margin-bottom: 10px; }
+.yopress-admin-icon-container i 		{ position:relative; font-size:30px; line-height:1.5em; width:1.5em; color:#494949; background:#fff; display:block; text-align:center; float:left;
+										border:1px solid #e1e1e1; margin-left:-1px; margin-top: -1px; transition: all 0.1s ease-out; -moz-transition: all 0.1s ease-out;
+										-webkit-transition: all 0.1s ease-out;	-o-transition: all 0.1s ease-out;cursor:pointer; }
+
+.yopress-admin-icon-container i:hover { color:#278ab7 !important; z-index:3 !important; -webkit-transform:scale(1.3) !important; -o-transform:scale(1.3) !important; -moz-transform:scale(1.3) !important;
+										transform:scale(1.3) !important; }
+
+input:disabled, input.disabled, textarea:disabled, textarea.disabled {
+background: #ccc;
+color: #ccc;
+}
+.yopress-footer 						{ background: #fff; padding: 2px 20px; color: #444; border-top: 1px solid #eee; }

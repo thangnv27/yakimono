@@ -1,0 +1,1 @@
+<td class="current-month event-cell" data-eventid="<?php echo $dayOfMonth;?>"><span data-count="<?php echo $eventCounter ;?>"><?php echo $dayOfMonth;?><i class="event-counter"><?php echo $eventCounter;?></i></span></td>

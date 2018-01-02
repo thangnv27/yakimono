@@ -1,0 +1,9 @@
+/*================================================================
+	author: yosoftware
+	website: http://yosoftware.com
+	plugin name: WP Event Calendar
+	description: IE8 Support Disgrace CSS File
+================================================================*/
+
+#yocalendar-grid table td.event-cell .event-info	{ -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; }
+#yocalendar-grid table td.event-cell.on .event-info	{ -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }

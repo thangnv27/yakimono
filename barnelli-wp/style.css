@@ -1,0 +1,46 @@
+/*
+Theme Name: Barnelli
+Description: Barnelli is a minimal and highly responsive Wordpress theme, designed for all you restaurateurs out there. This is not just a generic 'theme' that can fit into all businesses.
+Author: yosoftware
+Theme URI: http://demo.yosoftware.com/wp/barnelli/
+Author URI: http://themeforest.net/user/yosoftware
+Version: 1.8.7
+License: Themeforest Split Licence
+License URI: -
+Tags: restaurant, responsive, bootstrap, chef, creative, css3, font awesome, food, html5, kitchen, menu, minimal, pub, slider
+Text Domain: BARNELLI
+*/
+.commentlist .bypostauthor {
+	border-left: 1px solid black;
+}
+.commentlist li ul.children li.bypostauthor {
+	border-left: 1px solid black; 
+}
+.wp-caption { 
+	margin: 0; 
+	padding: 0;
+}
+.wp-caption-text {
+	font-size: 12px; 
+	margin-bottom: 5px;
+}
+.sticky { 
+	margin:0;
+	padding: 0;
+}
+.gallery-caption { 
+	padding: 5px;
+	margin: 0; 
+}
+.alignright {
+	float: right;
+}
+.alignleft {
+	float: left;
+}
+.aligncenter {
+	text-align: center; 
+	margin-left: auto; 
+	margin-right: auto; 
+	display: block;
+}

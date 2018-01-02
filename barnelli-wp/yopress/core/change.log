@@ -1,0 +1,66 @@
+v 0.2
+
+ - fancybox and colorbox components
+ - flex and nivo sliders components
+ - components switcher component
+ - added component dependencies
+ - widgets load
+ - widgets script autoload
+ - spl autoloader
+ - theme customize moved to component
+ - gallery clean component
+ - event calendar component
+ - v0.1 fallbackmode
+  
+ - added handle for spl autoload files from config with * i.e components/*
+	will search for all folders under components/
+  
+ - moved responsibility for registering components to YoPressComponentManager
+  
+ - changed registerComponents, not it will register only components from
+	 config, so that they also can add dependencies
+ - added IDependencyObject interface, everything that want to be used as 
+	 dependency must implememnts that
+ - added registerDependencies, its fired after all widgets and components
+	 are registered
+  
+ - resolving post request before doing any registers so components will get
+  the newest options
+  
+ - added support for multi components
+ - component switcher
+ 
+ - added log mode in YoPressBase
+ - ISwitchableInterface is now IRunableInterface
+ - YoCompoennt now fire registerhooks only once per class
+
+ - adminOnly in component config
+
+- WidgetModule for widget related work
+
+v 0.3 
+- Pluginaze module, components that implement IPluginable can be converted 
+to plugins
+- ad manager component
+
+- Form model now saves all options into one row as serialized data
+to retrive data use YoPressFormModel::getOption($optionName) instead of
+wordpress get_option
+
+- Yopress can now be shared folder through all themes
+
+- Remove Yolite fallback mode
+
+- UrlManager to rule paths
+
+v 0.4
+- PluginazerModule removed
+- eventcalendar isn't compoment and part of yopress anymore
+- removed registerThemesupport, theme will add this manualy from functions
+- widgets now load only on widgets.php, admin-ajax.php and end user page
+- added YoPressTranslateModule
+- added YoPressStorageModule
+- extracted all database logic from YoPressFormModel to YoPressStorageModule
+- extracted all render logic from YoPressFormModel  to YoPressFormModule
+- there is no need to use yopress prefix in admin settings 
+- rewritten admin panel

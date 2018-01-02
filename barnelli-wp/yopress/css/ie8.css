@@ -1,0 +1,92 @@
+.theme-orange .slider-wrapper,
+.theme-orange .flexslider,
+.theme-orange span.party,
+.theme-orange .widget .playlist ul li:hover,
+.theme-orange .staff-members li figure:hover,
+.theme-orange .btn							{ background: rgb(245,99,0); /* Old browsers */
+											background: -ms-linear-gradient(top,  rgba(245,99,0,1) 0%,rgba(236,67,0,1) 100%); /* IE10+ */
+											background: linear-gradient(to bottom,  rgba(245,99,0,1) 0%,rgba(236,67,0,1) 100%); /* W3C */
+											filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f56300', endColorstr='#ec4300',GradientType=0 ); /* IE6-9 */
+											}
+
+.theme-orange .btn:hover					{ background: rgb(229,72,0); /* Old browsers */
+											background: -ms-linear-gradient(top,  rgba(229,72,0,1) 0%,rgba(224,44,0,1) 100%); /* IE10+ */
+											background: linear-gradient(to bottom,  rgba(229,72,0,1) 0%,rgba(224,44,0,1) 100%); /* W3C */
+											filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e54800', endColorstr='#e02c00',GradientType=0 ); /* IE6-9 */
+											}
+
+
+
+
+.theme-green .slider-wrapper,
+.theme-green .flexslider,
+.theme-green span.party,
+.theme-green .widget .playlist ul li:hover,
+.theme-green .staff-members li figure:hover,
+.theme-green .btn 							{ background: rgb(94,165,1); /* Old browsers */
+											background: -ms-linear-gradient(top,  rgba(94,165,1,1) 0%,rgba(72,129,1,1) 100%); /* IE10+ */
+											background: linear-gradient(to bottom,  rgba(94,165,1,1) 0%,rgba(72,129,1,1) 100%); /* W3C */
+											filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ea501', endColorstr='#488101',GradientType=0 ); /* IE6-9 */
+											}						
+												
+.theme-green .btn:hover						{ background: rgb(84,147,1); /* Old browsers */
+											background: -ms-linear-gradient(top,  rgba(84,147,1,1) 0%,rgba(58,109,1,1) 100%); /* IE10+ */
+											background: linear-gradient(to bottom,  rgba(84,147,1,1) 0%,rgba(58,109,1,1) 100%); /* W3C */
+											filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#549301', endColorstr='#3a6d01',GradientType=0 ); /* IE6-9 */
+											}
+											
+					
+											
+.theme-red .slider-wrapper,
+.theme-red .flexslider,
+.theme-red span.party,
+.theme-red .widget .playlist ul li:hover,
+.theme-red .staff-members li figure:hover,
+.theme-red .btn								{ background: rgb(231,31,22); /* Old browsers */
+											background: -ms-linear-gradient(top,  rgba(231,31,22,1) 0%,rgba(188,0,0,1) 100%); /* IE10+ */
+											background: linear-gradient(to bottom,  rgba(231,31,22,1) 0%,rgba(188,0,0,1) 100%); /* W3C */
+											filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e71f16', endColorstr='#bc0000',GradientType=0 ); /* IE6-9 */
+											}
+											
+.theme-red .btn:hover						{ background: rgb(211,21,21); /* Old browsers */
+											background: -ms-linear-gradient(top,  rgba(211,21,21,1) 0%,rgba(181,0,0,1) 100%); /* IE10+ */
+											background: linear-gradient(to bottom,  rgba(211,21,21,1) 0%,rgba(181,0,0,1) 100%); /* W3C */
+											filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d31515', endColorstr='#b50000',GradientType=0 ); /* IE6-9 */
+											}
+											
+					
+											
+.theme-violet .slider-wrapper,
+.theme-violet .flexslider,
+.theme-violet span.party,
+.theme-violet .widget .playlist ul li:hover,
+.theme-violet .staff-members li figure:hover,
+.theme-violet .btn							{ background: rgb(237,38,114); /* Old browsers */
+											background: -ms-linear-gradient(top,  rgba(237,38,114,1) 0%,rgba(208,16,90,1) 100%); /* IE10+ */
+											background: linear-gradient(to bottom,  rgba(237,38,114,1) 0%,rgba(208,16,90,1) 100%); /* W3C */
+											filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed2672', endColorstr='#d0105a',GradientType=0 ); /* IE6-9 */	
+											}
+											
+.theme-violet .btn:hover					{ background: rgb(221,37,92); /* Old browsers */
+											background: -ms-linear-gradient(top,  rgba(221,37,92,1) 0%,rgba(188,15,72,1) 100%); /* IE10+ */
+											background: linear-gradient(to bottom,  rgba(221,37,92,1) 0%,rgba(188,15,72,1) 100%); /* W3C */
+											filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd255c', endColorstr='#bc0f48',GradientType=0 ); /* IE6-9 */
+											}
+											
+											
+.theme-blue .slider-wrapper,
+.theme-blue .flexslider,
+.theme-blue span.party,
+.theme-blue .widget .playlist ul li:hover,
+.theme-blue .staff-members li figure:hover,
+.theme-blue .btn							{ background: rgb(37,155,252); /* Old browsers */
+											background: -ms-linear-gradient(top,  rgba(37,155,252,1) 0%,rgba(16,120,211,1) 100%); /* IE10+ */
+											background: linear-gradient(to bottom,  rgba(37,155,252,1) 0%,rgba(16,120,211,1) 100%); /* W3C */
+											filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#259bfc', endColorstr='#1078d3',GradientType=0 ); /* IE6-9 */
+											}
+											
+.theme-blue .btn:hover						{ background: rgb(34,133,232); /* Old browsers */
+											background: -ms-linear-gradient(top,  rgba(34,133,232,1) 0%,rgba(15,99,188,1) 100%); /* IE10+ */
+											background: linear-gradient(to bottom,  rgba(34,133,232,1) 0%,rgba(15,99,188,1) 100%); /* W3C */
+											filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2285e8', endColorstr='#0f63bc',GradientType=0 ); /* IE6-9 */
+											}

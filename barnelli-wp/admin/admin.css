@@ -1,0 +1,470 @@
+.hidden					{ display: none }
+.unstyled				{ font-size: 20px; list-style: none }
+.unstyled li			{ float: left; width: 30px; height: 30px; cursor: pointer }
+.unstyled li:hover		{ color: #4a74a2 }
+#menu-cat-icon-new		{ font-size: 32px; cursor: pointer }
+#restaurant-block-icon  { font-size: 32px; cursor: pointer }
+.type-select .active	{ box-shadow: 0px 0px 5px rgb(0, 241, 0) }
+.type-select img		{ cursor: pointer }
+.type-select input		{ display: none }
+.icon-set				{ height: 200px; overflow: auto; width: 500px; border: 1px solid #aaa; overflow-x: hidden; margin: 5px; padding: 5px;}
+.icon-picker			{ position: absolute; background-color: #fff; z-index:9999;}
+.icon-close				{ margin-left: 480px;}
+/* mono social icons */
+@font-face {
+	font-family: 'Mono Social Icons Font';
+	src: url('../fonts/monosocial/MonoSocialIconsFont-1.10.eot');
+	src: url('../fonts/monosocial/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/monosocial/MonoSocialIconsFont-1.10.woff') format('woff'),
+		 url('../fonts/monosocial/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+		 url('../fonts/monosocial/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+	src: url('../fonts/monosocial/MonoSocialIconsFont-1.10.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.monosymbol, a.monosymbol:before {
+	font-family: 'Mono Social Icons Font';
+	-webkit-text-rendering: optimizeLegibility;
+	-moz-text-rendering: optimizeLegibility;
+	-ms-text-rendering: optimizeLegibility;
+	-o-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+a.monosymbol:before {
+	content: attr(title);
+	margin-right: 0.3em;
+	font-size: 150%;
+}
+
+a.monosymbol {
+	background: #9f9f9f;
+	padding: 7px 5px 3px 5px;
+	color: white;
+	text-decoration: none;
+	font-style: normal;
+}
+
+i.monosymbol {
+	text-decoration: none;
+	font-style: normal;
+}
+i.monoadmin {
+	font-size: 20px;
+}
+
+
+
+@font-face {
+    font-family: 'socicon';
+    src: url('../fonts/socicon/socicon-webfont.eot');
+    src: url('../fonts/socicon/socicon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/socicon/socicon-webfont.woff') format('woff'),
+         url('../fonts/socicon/socicon-webfont.ttf') format('truetype'),
+         url('../fonts/socicon/socicon-webfont.svg#sociconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.socicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'socicon';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+.socicon:empty {
+    width: 1em;
+}
+
+.socicon-easid:before { content: "5"; }
+.socicon-twitter:before { content: "a"; }
+.socicon-facebook:before { content: "b"; }
+.socicon-google:before { content: "c"; }
+.socicon-pinterest:before { content: "d"; }
+.socicon-foursquare:before { content: "e"; }
+.socicon-yahoo:before { content: "f"; }
+.socicon-skype:before { content: "g"; }
+.socicon-yelp:before { content: "h"; }
+.socicon-feedburner:before { content: "i"; }
+.socicon-linkedin:before { content: "j"; }
+.socicon-viadeo:before { content: "k"; }
+.socicon-xing:before { content: "l"; }
+.socicon-myspace:before { content: "m"; }
+.socicon-soundcloud:before { content: "n"; }
+.socicon-spotify:before { content: "o"; }
+.socicon-grooveshark:before { content: "p"; }
+.socicon-lastfm:before { content: "q"; }
+.socicon-youtube:before { content: "r"; }
+.socicon-vimeo:before { content: "s"; }
+.socicon-dailymotion:before { content: "t"; }
+.socicon-vine:before { content: "u"; }
+.socicon-flickr:before { content: "v"; }
+.socicon-500px:before { content: "w"; }
+.socicon-instagram:before { content: "x"; }
+.socicon-wordpress:before { content: "y"; }
+.socicon-tumblr:before { content: "z"; }
+.socicon-blogger:before { content: "A"; }
+.socicon-technorati:before { content: "B"; }
+.socicon-reddit:before { content: "C"; }
+.socicon-dribbble:before { content: "D"; }
+.socicon-stumbleupon:before { content: "E"; }
+.socicon-digg:before { content: "F"; }
+.socicon-envato:before { content: "G"; }
+.socicon-behance:before { content: "H"; }
+.socicon-delicious:before { content: "I"; }
+.socicon-deviantart:before { content: "J"; }
+.socicon-forrst:before { content: "K"; }
+.socicon-play:before { content: "L"; }
+.socicon-zerply:before { content: "M"; }
+.socicon-wikipedia:before { content: "N"; }
+.socicon-apple:before { content: "O"; }
+.socicon-flattr:before { content: "P"; }
+.socicon-github:before { content: "Q"; }
+.socicon-chimein:before { content: "R"; }
+.socicon-friendfeed:before { content: "S"; }
+.socicon-newsvine:before { content: "T"; }
+.socicon-identica:before { content: "U"; }
+.socicon-bebo:before { content: "V"; }
+.socicon-zynga:before { content: "W"; }
+.socicon-steam:before { content: "X"; }
+.socicon-xbox:before { content: "Y"; }
+.socicon-windows:before { content: "Z"; }
+.socicon-outlook:before { content: "1"; }
+.socicon-coderwall:before { content: "2"; }
+.socicon-tripadvisor:before { content: "3"; }
+.socicon-netcodes:before { content: "4"; }
+.socicon-lanyrd:before { content: "7"; }
+.socicon-slideshare:before { content: "8"; }
+.socicon-buffer:before { content: "9"; }
+.socicon-rss:before { content: ","; }
+.socicon-vkontakte:before { content: ";"; }
+.socicon-disqus:before { content: ":"; }
+
+i.mce-i-icon {
+	font: 400 20px/1 dashicons;
+	padding: 0;
+	vertical-align: top;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin-left: -2px;
+	padding-right: 20px
+}
+
+/* Dynatable css */
+/*
+ * jQuery Dynatable plugin 0.3.1
+ *
+ * Copyright (c) 2014 Steve Schwartz (JangoSteve)
+ *
+ * Dual licensed under the AGPL and Proprietary licenses:
+ *   http://www.dynatable.com/license/
+ *
+ * Date: Tue Jan 02 2014
+ */
+.dynatable th a {
+  color: #fff;
+}
+.dynatable th a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.dynatable-search {
+  float: right;
+  margin-bottom: 10px;
+}
+
+.dynatable-pagination-links {
+  float: right;
+}
+
+.dynatable-record-count {
+  display: block;
+  padding: 5px 0;
+}
+
+.dynatable-pagination-links span,
+.dynatable-pagination-links li {
+  display: inline-block;
+}
+
+.dynatable-page-link,
+.dynatable-page-break {
+  display: block;
+  padding: 5px 7px;
+}
+
+.dynatable-page-link {
+  cursor: pointer;
+}
+
+.dynatable-active-page,
+.dynatable-disabled-page {
+  cursor: text;
+}
+.dynatable-active-page:hover,
+.dynatable-disabled-page:hover {
+  text-decoration: none;
+}
+
+.dynatable-active-page {
+  background: #71AF5A;
+  border-radius: 5px;
+  color: #fff;
+}
+.dynatable-active-page:hover {
+  color: #fff;
+}
+.dynatable-disabled-page,
+.dynatable-disabled-page:hover {
+  background: none;
+  color: #999;
+}
+
+/* date range picker */
+.date-picker
+{
+	width:170px;
+	height:25px;
+	padding:0;
+	border:0;
+	line-height:25px;
+	padding-left:10px;
+	font-size:12px;
+	font-family:Arial;
+	font-weight:bold;
+	cursor:pointer;
+	color:#303030;
+	position:relative;
+	z-index:2;
+}
+.date-picker-wrapper
+{
+	position:absolute;
+	z-index:1;
+	border:1px solid #bfbfbf;
+	background-color:#efefef;
+	width:428px;
+	padding: 5px 12px;
+	font-size:12px;
+	line-height:20px;
+	color:#aaa;
+	font-family:Arial;
+	box-shadow:3px 3px 10px rgba(0,0,0,0.5);
+}
+.date-picker-wrapper.single-date {
+	width:auto;
+}
+.date-picker-wrapper.no-shortcuts { padding-bottom:12px;}
+.date-picker-wrapper .footer
+{
+	font-size:11px;
+	padding-top: 3px;
+}
+.date-picker-wrapper b
+{
+	color:#666;
+	font-weight:700;
+}
+.date-picker-wrapper a 
+{
+	color: rgb(107, 180, 214);
+	text-decoration:underline;
+}
+.date-picker-wrapper .month-wrapper
+{
+	border:1px solid #bfbfbf;
+	border-radius:3px;
+	background-color:#fff;
+	padding:5px;
+	cursor:default;
+	position:relative;
+	_overflow:hidden;
+}
+.date-picker-wrapper .month-wrapper table
+{
+	width:190px;
+	float:left;
+}
+.date-picker-wrapper .month-wrapper table.month2
+{
+	width:190px;
+	float:right;
+}
+.date-picker-wrapper .month-wrapper table th,
+.date-picker-wrapper .month-wrapper table td
+{
+	vertical-align:middle;
+	text-align:center;
+	line-height:14px;
+	margin : 0px;
+	padding : 0px;
+}
+.date-picker-wrapper .month-wrapper table .day
+{
+	height:19px;
+	line-height:19px;
+	font-size:12px;
+	margin-bottom:1px;
+	color:#999;
+	cursor:default;
+}
+.date-picker-wrapper .month-wrapper table div.day.lastMonth,
+.date-picker-wrapper .month-wrapper table div.day.nextMonth
+{
+	color:#999;
+	cursor:default;
+}
+.date-picker-wrapper .month-wrapper table .day.checked
+{
+	background-color: rgb(156, 219, 247);
+}
+.date-picker-wrapper .month-wrapper table .week-name
+{
+	height:20px;
+	line-height:20px;
+	font-weight:100;
+}
+
+.date-picker-wrapper .month-wrapper table .day.has-tooltip { cursor:help !important;}
+
+.date-picker-wrapper .month-wrapper table .day.toMonth.valid
+{
+	color:#333;
+	cursor:pointer;
+}
+
+.date-picker-wrapper .month-wrapper table .day.real-today { background-color: rgb(255, 230, 132); }
+.date-picker-wrapper .month-wrapper table .day.real-today.checked { background-color: rgb(112, 204, 213); }
+
+
+.date-picker-wrapper table .caption
+{
+	height:40px;
+}
+.date-picker-wrapper table .caption .next,
+.date-picker-wrapper table .caption .prev
+{
+	padding:0 5px;
+	cursor:pointer;
+}
+.date-picker-wrapper table .caption .next:hover,
+.date-picker-wrapper table .caption .prev:hover
+{
+	background-color:#ccc;
+	color:white;
+}
+.date-picker-wrapper .gap
+{
+	position:absolute;
+	display:none;
+	top:0px;
+	left:204px;
+	z-index: 1;
+	width:15px;
+	height: 100%;
+	background-color:red;
+	font-size:0;
+	line-height:0;
+}
+.date-picker-wrapper .gap .gap-lines { height: 100%; overflow:hidden; }
+.date-picker-wrapper .gap .gap-line { height:15px;width:15px; position:relative;  }
+.date-picker-wrapper .gap .gap-line .gap-1 { z-index:1; height:0; border-left:8px solid white; border-top:8px solid #eee;border-bottom:8px solid #eee; }
+.date-picker-wrapper .gap .gap-line .gap-2 { position:absolute; right:0; top:0px; z-index:2; height:0; border-left:8px solid transparent; border-top:8px solid white; }
+.date-picker-wrapper .gap .gap-line .gap-3 { position:absolute; right:0; top:8px; z-index:2; height:0; border-left:8px solid transparent; border-bottom:8px solid white; }
+.date-picker-wrapper .gap .gap-top-mask { width: 6px; height:1px; position:absolute; top: -1px; left: 1px; background-color: #eee; z-index:3; }
+.date-picker-wrapper .gap .gap-bottom-mask { width: 6px; height:1px; position:absolute; bottom: -1px; left: 7px; background-color: #eee; z-index:3; }
+
+.date-picker-wrapper .selected-days
+{
+	display:none;
+}
+.date-picker-wrapper .drp_top-bar
+{
+	line-height:40px;
+	height:40px;
+	position:relative;
+}
+.date-picker-wrapper .drp_top-bar .error-top { display:none; }
+.date-picker-wrapper .drp_top-bar .normal-top { display:none; }
+.date-picker-wrapper .drp_top-bar .default-top { display:block; }
+
+.date-picker-wrapper .drp_top-bar.error .default-top { display:none; }
+.date-picker-wrapper .drp_top-bar.error .error-top { display:block; color:red; }
+
+.date-picker-wrapper .drp_top-bar.normal .default-top { display:none; }
+.date-picker-wrapper .drp_top-bar.normal .normal-top { display:block; }
+
+.date-picker-wrapper .drp_top-bar .apply-btn
+{
+	position:absolute;
+	right: 0px; 
+	top: 6px;
+	padding:3px 5px;
+	margin:0;
+	font-size:12px;
+	border-radius:4px;
+	cursor:pointer;
+	
+	color: #d9eef7;
+	border: solid 1px #0076a3;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+	color:white;
+}
+
+.date-picker-wrapper .drp_top-bar .apply-btn.disabled
+{
+	cursor: pointer;
+	color: #606060;
+	border: solid 1px #b7b7b7;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: -moz-linear-gradient(top,  #fff,  #ededed);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+/*time styling*/
+.time {
+	position: relative;
+}
+.time input[type=range] {
+  vertical-align: middle;
+}
+.time1, .time2 {
+	width: 180px;
+	padding: 0 5px;
+	text-align: center;
+}
+.time1 {
+	float: left;
+}
+.time2 {
+	float: right;	
+}
+.hour, .minute {
+	text-align: right;
+}
+.hide {
+	display: none;
+}
+
+.removeBlock {
+	position:absolute;bottom:10px;left:25px;
+}
+
+.editBlock {
+	position:absolute;bottom:10px;left:5px;
+}

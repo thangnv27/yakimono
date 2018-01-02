@@ -1,0 +1,73 @@
+<wpml-config>
+    <custom-fields>
+        
+        <custom-field action="translate">team_name</custom-field>
+        <custom-field action="translate">team_role</custom-field>
+        <custom-field action="translate">team_description</custom-field>
+        <custom-field action="copy">social_facebook</custom-field>
+        <custom-field action="copy">social_linkedin</custom-field>
+        <custom-field action="copy">social_twitter</custom-field>
+        <custom-field action="copy">social_google</custom-field>
+        <custom-field action="copy">social_google</custom-field>
+        <custom-field action="copy">event_start_date</custom-field>
+        <custom-field action="copy">event_end_date</custom-field>
+        <custom-field action="copy">event_start_time</custom-field>
+        <custom-field action="copy">event_end_time</custom-field>
+        <custom-field action="copy">event_venue</custom-field>
+        <custom-field action="copy">event_location</custom-field>
+        <custom-field action="copy">event_price</custom-field>
+        <custom-field action="copy">event_external_link</custom-field>
+        <custom-field action="copy">event_payment_link</custom-field>
+        <custom-field action="copy">event_poster_image</custom-field>
+        <custom-field action="translate">event_external_link_label</custom-field>
+        <custom-field action="translate">event_payment_link_label</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">team</custom-type>
+        <custom-type translate="1">foodmenu</custom-type>
+        <custom-type translate="1">eventcalendar</custom-type>
+        <custom-type translate="1">slider</custom-type>
+    </custom-types>    
+    <taxonomies>
+        <taxonomy translate="1">genre</taxonomy>
+        <taxonomy translate="1">type</taxonomy>
+        <taxonomy translate="0">publisher</taxonomy>
+    </taxonomies>
+    <language-switcher-settings>
+        <key name="icl_lang_sel_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>
+        <key name="icl_lang_sel_footer_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>    
+        <key name="icl_language_switcher_sidebar">0</key>  
+        <key name="icl_widget_title_show">0</key>
+        <key name="icl_lang_sel_type">dropdown</key>
+        <key name="icl_lso_link_empty">0</key>
+        <key name="icl_lso_flags">0</key>
+        <key name="icl_lso_native_lang">1</key>
+        <key name="icl_lso_display_lang">1</key>
+        <key name="icl_lang_sel_footer">0</key>
+        <key name="icl_post_availability">0</key>
+        <key name="icl_post_availability_position">below</key>
+        <key name="icl_post_availability_text">This post is also available in: %s</key>    
+    </language-switcher-settings>    
+</wpml-config>
+
+
